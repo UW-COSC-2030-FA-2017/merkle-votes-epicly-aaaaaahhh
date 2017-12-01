@@ -51,3 +51,6 @@ Create a poster using the template provided, describing your design decisions, l
 Poster will be due at the time of final code submission
 
 You must change this readme file to contain the names of your group members as well as the mathematical functions you have each implemented for your hash functions.
+
+
+In the files submitted, the friend function definitions were edited in order to work with visual studios. A new display function was also created to print out the trees instead of the << operator functions. Finally, the findHash function was left blank as its description said it did the exact same thing as the find function in the pMT class.
