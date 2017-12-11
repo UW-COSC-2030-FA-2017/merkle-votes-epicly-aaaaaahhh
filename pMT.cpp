@@ -148,7 +148,7 @@ string pMT::hash_2(string key)
 	for (int i = 0; i < key.length(); ++i)
 	{
 	
-		hash = ((hash*seed) + key[i])/10000;
+		hash = ((hash*seed) + key[i]);
 	}
 
 	string str = to_string(hash);
@@ -176,7 +176,7 @@ string pMT::hash_3(string key)
 	int n = key.length();
 	for (int i = 0; i < n; i++)
 	{
-		hash = (hash + pow(32.0, i)*key[i])/10000;
+		hash = (hash + pow(32.0, i)*key[i]);
 	}
 
 	string str = to_string(hash);
